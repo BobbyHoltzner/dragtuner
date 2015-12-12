@@ -1,0 +1,13 @@
+.navbar-brand img{
+	max-width: 175px;
+}
+.intro-content .logo{
+	max-width: 400px;
+}
+body{
+	font-family: 'Arimo'!important;
+}
+.navbar .active a{
+	font-weight: bold;
+	background-color: transparent!important;
+}
