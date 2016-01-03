@@ -1,3 +1,6 @@
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+var React = require('react');
 // Change the toggles on New Run Form
 $('#lane-choice').bootstrapToggle({
   on: 'Left',
@@ -9,23 +12,7 @@ $('#distance').bootstrapToggle({
   off: '1/4'
 });
 
-new Vue({
-	el: '#newRun',
-
-	data:{
-		quarterMile: '',
-	},
-
-	ready: function() {
-		
-	},
-
-	methods:{
-		
-	},
-});
-
- $("div.fileDropzone").dropzone({ url: "/file/post" });
+$("div.fileDropzone").dropzone({ url: "/file/post" });
 
 $(document).ready(function(){
 
@@ -39,5 +26,3 @@ $(document).ready(function(){
 	});
 
 });
-
-

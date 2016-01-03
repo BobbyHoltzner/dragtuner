@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="google-site-verification" content="AF4q9MV1VG_v7uwps-aCbX6IujDB_XFfo6ZXnB8TS4E" />
+    <meta name="google-site-verification" content="AF4q9MV1VG_v7uwps-aCbX6IujDB_XFfo6ZXnB8TS4E" />
     <title>Vitality</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -34,15 +36,6 @@
     <!-- Vitality Theme CSS -->
     <!-- Uncomment the color scheme you want to use. -->
     <link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css">
-    <!-- <link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-green.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-turquoise.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="assets/css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
     <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -79,16 +72,16 @@
                         <a class="page-scroll" href="#about">Product Tour</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#process">Pricing</a>
+                        <a class="page-scroll" href="#pricing">Pricing</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#work">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#pricing">Login</a>
+                        <a class="page-scroll disabled" href="#">Login</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Signup</a>
+                        <a class="page-scroll disabled" href="#">Signup</a>
                     </li>
                 </ul>
             </div>
@@ -123,7 +116,7 @@
                     <div class="about-content">
                         <i class="fa fa-lock fa-4x"></i>
                         <h3>Safe &amp; Secure</h3>
-                        <p>Keep your runs in a secure databse. Protected from outside users as well as computer failures.</p>                    
+                        <p>Keep your runs in a secure databse. Protected from outside users as well as computer failures.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
@@ -162,48 +155,48 @@
             <div class="row content-row">
                 <div class="col-md-4">
                     <div class="pricing-item featured-first">
-                        <h3>Basic</h3>
+                        <h3>Starter</h3>
                         <hr class="colored">
-                        <div class="price"><span class="number"><sup>$</sup>25</span> / month</div>
+                        <div class="price"><span class="number"><sup>$</sup>15</span> / month</div>
                         <ul class="list-group">
-                            <li class="list-group-item">60 Users</li>
-                            <li class="list-group-item">Unlimited Forums</li>
-                            <li class="list-group-item">Unlimited Reports</li>
-                            <li class="list-group-item">3,000 Entries per Month</li>
+                            <li class="list-group-item">1 User</li>
+                            <li class="list-group-item">Unlimited Runs</li>
+                            <li class="list-group-item">Unlimited Tunes</li>
+                            <li class="list-group-item">2 Car Configurations</li>
                             <li class="list-group-item">200 MB Storage</li>
-                            <li class="list-group-item">Unlimited Support</li>
+                            <li class="list-group-item">Basic Support</li>
                         </ul>
                         <a href="#" class="btn btn-outline-dark">Sign Up</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="pricing-item featured">
-                        <h3>Plus</h3>
+                        <h3>Professional</h3>
                         <hr class="colored">
-                        <div class="price"><span class="number"><sup>$</sup>50</span> / month</div>
+                        <div class="price"><span class="number"><sup>$</sup>25</span> / month</div>
                         <ul class="list-group">
-                            <li class="list-group-item"><strong>60</strong> Users</li>
-                            <li class="list-group-item">Unlimited Forums</li>
-                            <li class="list-group-item">Unlimited Reports</li>
-                            <li class="list-group-item"><strong>3,000</strong> Entries per Month</li>
-                            <li class="list-group-item"><strong>200 MB</strong> Storage</li>
-                            <li class="list-group-item">Unlimited Support</li>
+                            <li class="list-group-item">5 Users</li>
+                            <li class="list-group-item">Unlimited Runs</li>
+                            <li class="list-group-item">Unlimited Tunes</li>
+                            <li class="list-group-item">10 Car Configurations</li>
+                            <li class="list-group-item">1GB Storage</li>
+                            <li class="list-group-item">Premium Support</li>
                         </ul>
                         <a href="#" class="btn btn-outline-dark">Sign Up</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="pricing-item featured-last">
-                        <h3>Premium</h3>
+                        <h3>Crew Chief</h3>
                         <hr class="colored">
-                        <div class="price"><span class="number"><sup>$</sup>150</span> / month</div>
+                        <div class="price"><span class="number"><sup>$</sup>50</span> / month</div>
                         <ul class="list-group">
-                            <li class="list-group-item">60 Users</li>
-                            <li class="list-group-item">Unlimited Forums</li>
-                            <li class="list-group-item">Unlimited Reports</li>
-                            <li class="list-group-item">3,000 Entries per Month</li>
-                            <li class="list-group-item">200 MB Storage</li>
-                            <li class="list-group-item">Unlimited Support</li>
+                            <li class="list-group-item">10 Users</li>
+                            <li class="list-group-item">Unlimited Runs</li>
+                            <li class="list-group-item">Unlimited Tunes</li>
+                            <li class="list-group-item">25 Car Configurations</li>
+                            <li class="list-group-item">Unlimited Storage</li>
+                            <li class="list-group-item">24-7 Support</li>
                         </ul>
                         <a href="#" class="btn btn-outline-dark">Sign Up</a>
                     </div>
@@ -244,7 +237,7 @@
                 <div class="col-lg-12 text-center">
                     <h2>Contact Us</h2>
                     <hr class="colored">
-                    <p>Please tell us about your next project and we will let you know what we can do to help you.</p>
+                    <p>Contact us to get more information about the Dragtuner application.</p>
                 </div>
             </div>
             <div class="row content-row">
@@ -290,25 +283,8 @@
             </div>
         </div>
     </section>
-    <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Buy Vitality Now!</a>
-    <footer class="footer" style="background-image: url('assets/img/bg-footer.jpg')">
+    <footer class="bg-dark footer" style="background:#222222">
         <div class="container text-center">
-            <div class="row">
-                <div class="col-md-4 contact-details">
-                    <h4><i class="fa fa-phone"></i> Call</h4>
-                    <p>555-213-4567</p>
-                </div>
-                <div class="col-md-4 contact-details">
-                    <h4><i class="fa fa-map-marker"></i> Visit</h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                </div>
-                <div class="col-md-4 contact-details">
-                    <h4><i class="fa fa-envelope"></i> Email</h4>
-                    <p><a href="mailto:mail@example.com">mail@example.com</a>
-                    </p>
-                </div>
-            </div>
             <div class="row social">
                 <div class="col-lg-12">
                     <ul class="list-inline">
@@ -323,160 +299,12 @@
             </div>
             <div class="row copyright">
                 <div class="col-lg-12">
-                    <p class="small">&copy; 2015 Start Bootstrap Themes</p>
+                    <p class="small">&copy; 2015 DragTuner. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Portfolio Modals -->
-    <!-- Example Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/bg-1.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-1.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
-                            <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-                        </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive img-centered" alt="">
-                        </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2015</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Example Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/bg-2.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-2.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
-                            <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-                        </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/tablet-screens.png" class="img-responsive img-centered" alt="">
-                        </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2015</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Example Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/bg-3.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-1.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
-                            <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-                        </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive img-centered" alt="">
-                        </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2015</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Example Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/bg-4.jpg')">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-2.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
-                            <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-                        </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/tablet-screens.png" class="img-responsive img-centered" alt="">
-                        </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
-                                </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2015</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Core Scripts -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
@@ -495,6 +323,17 @@
     <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
     <!-- Vitality Theme Scripts -->
     <script src="assets/js/vitality.js"></script>
+    <!-- Google Analytics Tracking -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71320546-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </body>
 
 </html>
