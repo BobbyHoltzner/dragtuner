@@ -19,7 +19,7 @@ header{
 	height:10vh;
 	color: #f9f9f9;
 	margin-right:0px;
-	
+
 }
 aside{
 	background:#292d30;
@@ -76,7 +76,7 @@ aside ul.nav li a{
 	color: #ECF0F5;
 	font-size: 13px;
 	font-weight: bold;
-	
+
 }
 aside ul.nav li a i{
 	margin-right:25px;
@@ -94,6 +94,9 @@ aside ul.nav li a:focus{
 aside ul.nav li a:focus i, ul.nav li a:hover i{
 	color:#DB212D;
 }
+aside ul.nav li a.active i{
+	color:#db212D;
+}
 div.logo img{
 	width:200px;
 	display: block;
@@ -109,7 +112,7 @@ header .navbar-right li a{
 	color:#37393f;
 	font-size: 16px;
 	justify-contents:center;
-} 
+}
 header .navbar-right{
 	margin-top: 10px;
 	padding-right:20px;
@@ -157,6 +160,28 @@ header .small{
 button#addRun:hover i{
 	position: relative;
 	left:8px;
+}
+
+/* Auth Pages */
+.auth-page{
+
+}
+#auth{
+	background: #292d30;
+	height:100vh;
+}
+#auth .panel{
+	width: 500px;
+}
+#auth img{
+	padding-bottom: 50px;
+}
+#auth{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex:1;
+	flex-direction: column;
 }
 @media screen and (max-width:1700px){
 	div.logo img{

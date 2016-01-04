@@ -7,11 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<!-- Latest compiled and minified CSS & JS -->
 	<link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css" rel="stylesheet">
-	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link href="//gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css" rel="stylesheet">
+	<script src="//gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
+	<link href='//fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/dropzone.css">
 	<link rel="stylesheet" href="/css/dashboard.css">
@@ -29,10 +29,10 @@
 			<div class="sidebar-navigation">
 				<p class="navigation-header">Main Navigation</p>
 				<ul class="nav">
-					<li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-					<li><a href="#"><i class="fa fa-folder-open-o"></i> Runs</a></li>
-					<li><a href="#"><i class="fa fa-map-o"></i> Tracks</a></li>
-					<li><a href="#"><i class="fa fa-wrench"></i> Tunes</a></li>
+					<li><a href="/admin" {{ (Request::is('*admin') ? 'class=active' : '') }}><i class="fa fa-dashboard"></i> Dashboard</a></li>
+					<li><a href="/admin/runs" {{ (Request::is('*runs') ? 'class=active' : '') }}><i class="fa fa-folder-open-o"></i> Runs</a></li>
+					<li><a href="/admin/tracks" {{ (Request::is('*tracks') ? 'class=active' : '') }}><i class="fa fa-map-o"></i> Tracks</a></li>
+					<li><a href="/admin/tunes" {{ (Request::is('*tunes') ? 'class=active' : '') }}><i class="fa fa-wrench"></i> Tunes</a></li>
 				</ul>
 			</div>
 		</aside>

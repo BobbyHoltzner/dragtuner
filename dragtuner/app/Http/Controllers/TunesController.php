@@ -15,7 +15,7 @@ class TunesController extends Controller
      */
     public function index()
     {
-        //
+        return view('dashboard.tunes.index');
     }
 
     /**

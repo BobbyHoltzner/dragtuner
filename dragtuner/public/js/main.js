@@ -1,6 +1,4 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-var React = require('react');
+
 // Change the toggles on New Run Form
 $('#lane-choice').bootstrapToggle({
   on: 'Left',
@@ -24,5 +22,10 @@ $(document).ready(function(){
 	}, function(){
 		$(this).width(btnWidth / 1.1);
 	});
+
+  $('aside ul li a').click(function(){
+    $('aside ul li a').removeClass('active');
+    $(this).addClass('active');
+  });
 
 });

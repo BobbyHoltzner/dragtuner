@@ -14,6 +14,9 @@
 Route::get('/', function(){
 	return view('frontend.index');
 });
+Route::get('login', function(){
+	return view('auth.login');
+});
 Route::get('/admin', function () {
     return view('dashboard.index');
 });
@@ -21,3 +24,6 @@ Route::get('/admin', function () {
 Route::resource('admin/runs', 'RunsController');
 Route::resource('admin/tunes', 'TunesController');
 Route::resource('admin/tracks', 'TracksController');
+
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('logout', 'Auth\AuthController@getLogout');
